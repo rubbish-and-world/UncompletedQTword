@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/pictures/resource/pictures/back.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="exitbtn">
+    <property name="geometry">
+     <rect>
+      <x>1820</x>
+      <y>970</y>
+      <width>85</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/icons/resource/pictures/exit.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loginbtn">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>970</y>
+      <width>85</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/icons/resource/pictures/login.png);
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="markbtn">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>970</y>
+      <width>85</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/icons/resource/pictures/mark.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="marksbtn">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>970</y>
+      <width>85</width>
+      <height>96</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/icons/resource/pictures/marks.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="welcome">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>960</y>
+      <width>1000</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align:center;
+font: 9pt &quot;Lobster&quot;;
+color:white;
+font-size:50px;
+background:none;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Welcom to Word System</string>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stack">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>310</y>
+      <width>811</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:none;
+</string>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="page1">
+     <widget class="QListWidget" name="decks">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>80</y>
+        <width>371</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>dk1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>dk2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>dk3</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page2">
+     <widget class="QListWidget" name="wordlists">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>90</y>
+        <width>256</width>
+        <height>192</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>wdls1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>wdls2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>wdls3</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page3">
+     <widget class="QTableWidget" name="cards">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>80</y>
+        <width>671</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>0</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>english</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>chinese</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>property</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>infomation</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>choice_en</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>choice_ch</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

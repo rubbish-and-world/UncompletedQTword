@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/pictures">
+        <file>resource/pictures/back.jpg</file>
+        <file>resource/pictures/loginbg.png</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>resource/pictures/exit.png</file>
+        <file>resource/pictures/import.png</file>
+        <file>resource/pictures/login.png</file>
+        <file>resource/pictures/logout.png</file>
+        <file>resource/pictures/mark.png</file>
+        <file>resource/pictures/marks.png</file>
+        <file>resource/pictures/review.png</file>
+        <file>resource/pictures/study.png</file>
+        <file>resource/pictures/register.png</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>resource/mp3/backgroundmusic.mp3</file>
+        <file>resource/mp3/quitgame.mp3</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file>resource/font/BigShouldersStencilText-Black.ttf</file>
+    </qresource>
+</RCC>
